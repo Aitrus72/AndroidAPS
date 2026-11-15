@@ -226,11 +226,11 @@ class WizardDialogViewModel(
                 notes = initialNotes ?: "",
                 selectedProfileIndex = 0,
                 // Toggles
-                useBg = true,
-                useTT = true,
-                useTrend = useTrend,
-                useIOB = true,
-                useCOB = useCOB,
+                useBg = false,
+                useTT = false,
+                useTrend = false,
+                useIOB = false,
+                useCOB = false,
                 alarmChecked = false,
                 calculationExpanded = false,
                 // Config
